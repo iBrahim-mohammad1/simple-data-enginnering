@@ -1,0 +1,29 @@
+2023-12-23 02:04:53,227 - INFO - Data saved to ./Largest_banks_data.csv
+2023-12-23 02:04:53,609 - INFO - Data saved to SQLite database
+2023-12-23 02:04:53,610 - INFO - Query: SELECT * FROM Largest_banks
+2023-12-23 02:04:53,610 - INFO - Result: [('JPMorgan Chase', 432.92), ('Bank of America', 231.52), ('Industrial and Commercial Bank of China', 194.56), ('Agricultural Bank of China', 160.68), ('HDFC Bank', 157.91), ('Wells Fargo', 155.87), ('HSBC', 148.9), ('Morgan Stanley', 140.83), ('China Construction Bank', 139.82), ('Bank of China', 136.81)]
+2023-12-23 02:04:53,610 - INFO - Query: SELECT AVG(MC_USD_Billion) FROM Largest_banks
+2023-12-23 02:04:53,610 - INFO - Result: [(189.982,)]
+2023-12-23 02:04:53,611 - INFO - Query: SELECT Name FROM Largest_banks LIMIT 5
+2023-12-23 02:04:53,611 - INFO - Result: [('JPMorgan Chase',), ('Bank of America',), ('Industrial and Commercial Bank of China',), ('Agricultural Bank of China',), ('HDFC Bank',)]
+2023-12-23 02:13:06,396 - INFO - Data saved to ./Largest_banks_data.csv
+2023-12-23 02:13:06,403 - INFO - Data saved to SQLite database
+2023-12-23 02:13:06,404 - INFO - Query: SELECT * FROM Largest_banks
+2023-12-23 02:13:06,404 - INFO - Result: [('JPMorgan Chase', 432.92), ('Bank of America', 231.52), ('Industrial and Commercial Bank of China', 194.56), ('Agricultural Bank of China', 160.68), ('HDFC Bank', 157.91), ('Wells Fargo', 155.87), ('HSBC', 148.9), ('Morgan Stanley', 140.83), ('China Construction Bank', 139.82), ('Bank of China', 136.81)]
+2023-12-23 02:13:06,404 - ERROR - Error in run_queries: no such column: MC_GBP_Billion
+2023-12-23 02:13:06,405 - INFO - Query: SELECT Name FROM Largest_banks LIMIT 5
+2023-12-23 02:13:06,405 - INFO - Result: [('JPMorgan Chase',), ('Bank of America',), ('Industrial and Commercial Bank of China',), ('Agricultural Bank of China',), ('HDFC Bank',)]
+2023-12-23 02:14:26,385 - INFO - Data saved to ./Largest_banks_data.csv
+2023-12-23 02:14:26,391 - INFO - Data saved to SQLite database
+2023-12-23 02:14:26,391 - INFO - Query: SELECT * FROM Largest_banks
+2023-12-23 02:14:26,391 - INFO - Result: [('JPMorgan Chase', None, 432.92), ('Bank of America', None, 231.52), ('Industrial and Commercial Bank of China', None, 194.56), ('Agricultural Bank of China', None, 160.68), ('HDFC Bank', None, 157.91), ('Wells Fargo', None, 155.87), ('HSBC', None, 148.9), ('Morgan Stanley', None, 140.83), ('China Construction Bank', None, 139.82), ('Bank of China', None, 136.81)]
+2023-12-23 02:14:26,391 - INFO - Query: SELECT AVG(MC_GBP_Billion) FROM Largest_banks
+2023-12-23 02:14:26,392 - INFO - Result: [(189.982,)]
+2023-12-23 02:14:26,392 - INFO - Query: SELECT Name FROM Largest_banks LIMIT 5
+2023-12-23 02:14:26,392 - INFO - Result: [('JPMorgan Chase',), ('Bank of America',), ('Industrial and Commercial Bank of China',), ('Agricultural Bank of China',), ('HDFC Bank',)]
+2023-12-23 02:31:30,815 - ERROR - No such comm target registered: jupyter.widget.control
+2023-12-23 02:31:30,819 - WARNING - No such comm: 400396b1-f3b7-4a8b-a346-3d10ac19772e
+2023-12-23 06:25:23,078 - ERROR - No such comm target registered: jupyter.widget.control
+2023-12-23 06:25:23,086 - WARNING - No such comm: c541c13e-9345-4792-b994-b405c869fca8
+2023-12-25 02:33:31,380 - ERROR - No such comm target registered: jupyter.widget.control
+2023-12-25 02:33:31,390 - WARNING - No such comm: e9ac55e5-007c-496b-9fb1-ed000d2b52b5
